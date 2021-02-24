@@ -5,8 +5,8 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [],
   "client": [],
-  "injectors":
-  {
+  "server": [],
+  "injectors": {
     "defaultRequire": 1
   }
 }

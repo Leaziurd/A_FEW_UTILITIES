@@ -28,7 +28,7 @@ public class POOP extends Block
     }
     public ActionResult onUse(BlockState blockState, World world, BlockPos blockPos, PlayerEntity placedBy, Hand hand, BlockHitResult blockHitResult) {
         if (!world.isClient) {
-            world.playSound(null, blockPos, ModSounds.FART_EVENT, SoundCategory.BLOCKS, 1f, 1f
+            world.playSound(null, blockPos, ModSounds.FART_EVENT, SoundCategory.BLOCKS, 0.5f, 1f
             );
         }
         return ActionResult.SUCCESS;
